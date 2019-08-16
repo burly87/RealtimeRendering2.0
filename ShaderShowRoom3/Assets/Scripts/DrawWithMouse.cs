@@ -5,10 +5,10 @@ using UnityEngine;
 public class DrawWithMouse : MonoBehaviour
 {
     public Camera _camera;
-    public Shader _drawShader;
+    public Shader drawShader;
 
     private RenderTexture _splatmap;                // map that is going to be drawn
-    private Material snowMaterial, drawMaterial;  // materials
+    private Material snowMaterial, drawMaterial;    // materials
 
     // to Draw
     private RaycastHit hit;
@@ -19,7 +19,7 @@ public class DrawWithMouse : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        drawMaterial = new Material(_drawShader);
+        drawMaterial = new Material(drawShader);
         // with setVector we can call the Value in the Shader of string
         drawMaterial.SetVector("_Color", Color.red);
 
