@@ -633,7 +633,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &337178206
 Transform:
   m_ObjectHideFlags: 0
@@ -1147,7 +1147,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1216803256}
   - component: {fileID: 1216803255}
-  - component: {fileID: 1216803253}
   - component: {fileID: 1216803254}
   m_Layer: 0
   m_Name: Camera_Dessert
@@ -1155,25 +1154,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1216803253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1216803252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6138e7532c9f571469a426f21be611b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lockCursor: 1
-  mouseSensitivity: 13
-  target: {fileID: 260358498}
-  distanceFromTarget: 6
-  pitchMinMax: {x: 10, y: 85}
-  rotationSmoothTime: 0.25
+  m_IsActive: 0
 --- !u!114 &1216803254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1665,7 +1646,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1663985908
 Transform:
   m_ObjectHideFlags: 0
