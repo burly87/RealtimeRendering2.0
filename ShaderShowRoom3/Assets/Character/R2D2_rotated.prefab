@@ -836,7 +836,7 @@ MonoBehaviour:
   - {fileID: 1071158737}
   - {fileID: 1071158736}
   - {fileID: 1071158735}
-  brushSize: 0.1
+  brushSize: 0.15
   brushStrength: 0.6
 --- !u!1 &1610437052
 GameObject:
