@@ -123,5 +123,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snowFallShader: {fileID: 4800000, guid: 486cf9f14d5ec134a984d919cae87e68, type: 3}
-  snowAmount: 0.007
-  snowOpacity: 0.18
+  snowAmount: 0.01
+  snowOpacity: 0.08
