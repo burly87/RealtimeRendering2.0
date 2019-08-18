@@ -51,7 +51,7 @@
                 // sample the texture
                 fixed4 col = tex2D(_MainTex, i.uv);
                 // new 
-                float draw = pow(saturate(1- distance(i.uv, _Coord.xy)), 100/_Size); // saturate to clamp it, devide by 500 to flip
+                float draw = pow(saturate(1- distance(i.uv, _Coord.xy)), 100/_Size); // saturate to clamp it, devide by 100 to flip
                 fixed4 drawcol = _Color * (draw * _Strength);
                 return saturate(col + drawcol);
             }
