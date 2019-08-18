@@ -21,6 +21,9 @@ public class DrawTracks : MonoBehaviour
     [Range(0, 2)] public float brushSize;
     [Range(0, 1)] public float brushStrength;
 
+    // GUI
+    private bool useGUI = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,5 +53,16 @@ public class DrawTracks : MonoBehaviour
                 RenderTexture.ReleaseTemporary(tmp); // release it eache frame
             }
         }
+
+        if(Input.GetKeyDown(KeyCode.M))
+        {
+            useGUI = useGUI ? false : true;
+        }
+    }
+
+    private void OnGUI()
+    {
+        if(useGUI)
+        GUI.DrawTexture(new Rect(0, 0, 256, 256), _splatmap, ScaleMode.ScaleToFit, false, 1);
     }
 }

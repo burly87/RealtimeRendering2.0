@@ -43,5 +43,11 @@ public class PlayerController : MonoBehaviour
         // not needed here without Animation. but for later
         // float animationSpeedPerc = ((running) ? 1: 0.5f) * inputDir.magnitude;
         // animator.SetFloat("speedPercent", animationSpeedPerc, speedSmoothTime, Time*deltaTime);
+
+        // get Out
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }
